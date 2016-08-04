@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_development
+  pool: 5
+  username: exp
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_test
+  pool: 5
+  username: exp
+  password:
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: blog_production
+  pool: 5
+  username:
+  password:
